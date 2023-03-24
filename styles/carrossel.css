@@ -90,4 +90,78 @@
     margin: 0 1em;
 }
 
+@media screen and (min-width: 1024px){
+    
+    .carrossel_titulo{
+        font-size: 26px;
+        padding: 2em 0 0.5em 0;
+    }
 
+    .swiper{
+        width: 60%;
+    }
+
+
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top: 55%;
+        width: 6%;
+        padding-right: 1.5em;
+    }
+
+    .swiper-slide{
+        padding: 0 0;
+    }
+
+    .swiper-slide img{
+        width: 78%;
+    }
+
+    .swiper-pagination{
+        padding: 0 0 2em 0;
+    }
+
+    .card{
+        width: 40%;
+        margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .carrossel_container{
+        width: 70%;
+        display: flex;
+        margin: 0 15vw 2em 15vw;
+        align-items: center;
+        
+    }
+    
+    .carrossel_titulo{
+        font-size: 32px;
+    }
+
+    .descricao__titulo{
+        font-size: 30px;
+    }
+    
+
+    .swiper-pagination{
+        margin: 1em 0;
+    }
+
+    .swiper{
+        width: 90%;
+    }
+
+    .card{
+        top: 10%;
+        margin-left: 2em;
+        width: 70%;
+    }
+
+    .swiper-slide img{
+        width: 95%;
+    }
+
+
+}
