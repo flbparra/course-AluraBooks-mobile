@@ -1,9 +1,10 @@
-@import url(/styles/hearder.css);
-@import url(/styles/banner.css);
-@import url(/styles/carrossel.css);
-@import url(/styles/contato.css);
-@import url(/styles/rodape.css);
-@import url(/styles/topicos.css);
+@import url(styles/hearder.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/contato.css);
+@import url(styles/rodape.css);
+@import url(styles/topicos.css);
+
 :root{
     --cor-de-fundo:  #EBECEE;
     --rodape-fundo: #F9F9F9;
@@ -16,8 +17,6 @@
     --black: #000;
     --cinza: #858585;
     --cinza-escuro: #474646;
-
-
 
 }
 
